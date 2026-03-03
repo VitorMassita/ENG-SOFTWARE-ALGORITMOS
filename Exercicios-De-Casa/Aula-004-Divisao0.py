@@ -1,0 +1,6 @@
+n1=int(input("DIGITE O PRIMEIRO NUMERO: "))
+n2=int(input("DIGITE O SEGUNDO NUMERO: "))
+if n1 % n2 == 0:
+    print("O PRIMEIRO NUMERO E DIVISEL PELO SEGUNDO")
+else:
+    print("O PRIMEIRO NUMERO NAO E DIVISIVEL PELO SEGUNDO")
