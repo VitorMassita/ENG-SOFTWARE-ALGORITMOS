@@ -4,7 +4,7 @@ try:
     print("OPS, ALGO DEU ERRADO")
     try:
         nota2=float(input("DIGITE A NOTA 2: "))
-    except ValueError:
+    except:
         print("OPS, ALGO DEU ERRADO")
     media=(nota1+nota2)/2
     print("SUA MEDIA : ", media)

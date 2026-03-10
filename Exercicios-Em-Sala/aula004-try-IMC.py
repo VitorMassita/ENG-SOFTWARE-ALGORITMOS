@@ -11,7 +11,7 @@ try:
     elif (imc >=25) and (imc<= 29.9):
         print((f"SEU IMC : {imc:0.2f} E ESTA COM SOBREPESO"))
     else:
-        print("VOCE ESTA COM SOBREPESO")
+        print("VOCE ESTA COM OBESIDADE")
 except ValueError:
     print("DIGITE VALORES NUMERICOS")
 except ZeroDivisionError:
