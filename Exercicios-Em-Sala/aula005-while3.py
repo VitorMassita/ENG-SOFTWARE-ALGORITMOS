@@ -11,5 +11,4 @@ while numcompu!=numjogador:
         print("VOCE ERROUU, O NUMERO E MAIOR \nTENTE NOVAMENTE")
         print("*" *50)
     else:
-        print("*" *50)
         print("VOCE ACERTOUUU!!!!!!")

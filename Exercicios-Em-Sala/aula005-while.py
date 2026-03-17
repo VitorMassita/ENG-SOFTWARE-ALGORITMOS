@@ -1,7 +1,7 @@
 xmax=-1000
 ymax=-1000
 count=0
-while count<=20:
+while count<=10:
     y=-4*count**2 + 40*count
     if (y>ymax):
         ymax=y
